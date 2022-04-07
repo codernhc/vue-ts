@@ -1,0 +1,15 @@
+# https://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space  #控制缩进风格，可选值：space, tab
+indent_size = 2 #控制缩进字符数，可选值：1, 2, 4
+end_of_line = lf #控制行尾的换行符 (lf, crlf, cr)
+insert_final_newline = true #控制文件末尾是否加换行符
+trim_trailing_whitespace = true #控制文件末尾是否加空格
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
