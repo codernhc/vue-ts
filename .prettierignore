@@ -2,6 +2,8 @@
 .local
 .output.js
 /node_modules/**
+/auto-imports.d.ts
+/components.d.ts
 
 **/*.svg
 **/*.sh
